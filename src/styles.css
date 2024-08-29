@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+/* styles.scss */
+  @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "New Amsterdam", sans-serif;
+  }
+  :root {
+    --primary-color: #fff;
+    --background-color: #F3F6FD;
+    --text-color: #000;
+  }
+  
+  .dark-theme {
+    --primary-color: #111827;
+    --background-color: #1F2937;
+    --text-color: #fff;
+  }
+  
+  body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+  }
+  
+  .btn-primary {
+    background-color: var(--primary-color);
+  }
