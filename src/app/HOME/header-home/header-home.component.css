@@ -45,3 +45,6 @@ ul > li > a {
     border-right: .5px solid var(--text-color);
     padding: 0 15px;
 }
+ul > li > a:hover{
+    text-decoration: underline;
+}
