@@ -1,10 +1,17 @@
 <header>
-
     <div class="left-zoon">
-        <app-mode-home></app-mode-home>
         <div class="email">
-            <button (click)="copyEmail()">Copy</button>
-            <h5>{{ email }}</h5>
+            <button (click)="copyEmail()"><i class="pi pi-copy"></i></button>
+            <p>{{ email }}</p>
         </div>
+    </div>
+
+    <div class="right-zoon">
+        <ul>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+        <app-mode-home></app-mode-home>
     </div>
 </header>

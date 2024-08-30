@@ -1,0 +1,47 @@
+header{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+    border-bottom: .5px solid var(--color-border);
+}
+.left-zoon{
+    display: flex;
+    align-items: center;
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+.email > button {
+    padding: 5px;
+    color: var(--text-color);
+    border-radius: 7px;
+    background: var(--primary-color);
+    border: 1px solid var(--color-border);
+    margin-right: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+.email > button:hover{
+    transform: scale(1.1);
+}
+.right-zoon{
+    display: flex;
+    align-items: center;
+}
+.right-zoon > ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+ul > li > a {
+    color: var(--text-color);
+    text-decoration: none;
+    border-right: .5px solid var(--text-color);
+    padding: 0 15px;
+}

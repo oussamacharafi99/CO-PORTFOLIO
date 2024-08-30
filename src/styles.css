@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 /* styles.scss */
   @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+  @import "primeicons/primeicons.css";
   *{
     padding: 0;
     margin: 0;
@@ -11,12 +12,14 @@
     --primary-color: #fff;
     --background-color: #F3F6FD;
     --text-color: #000;
+    --color-border:black;
   }
   
   .dark-theme {
     --primary-color: #111827;
     --background-color: #1F2937;
     --text-color: #fff;
+    --color-border:#6c6c6c;
   }
   
   body {
