@@ -16,17 +16,21 @@ header{
     align-items: center;
 }
 .email > button {
-    padding: 5px;
+    padding: 5px 8px;
     color: var(--text-color);
     border-radius: 7px;
     background: var(--primary-color);
-    border: 1px solid var(--color-border);
     margin-right: 10px;
     cursor: pointer;
     transition: .4s;
+    border: none;
 }
 .email > button:hover{
-    transform: scale(1.1);
+    box-shadow:  0px 0px 5px rgba(0, 0, 0, 0.119);
+}
+.email > p{
+    font-size: 14px;
+    font-weight: 600;
 }
 .right-zoon{
     display: flex;
@@ -39,12 +43,13 @@ header{
 li{
     list-style: none;
 }
-ul > li > a {
+ul > li > a  > i{
     color: var(--text-color);
     text-decoration: none;
     border-right: .5px solid var(--text-color);
     padding: 0 15px;
+    transition: .5s;
 }
-ul > li > a:hover{
-    text-decoration: underline;
+ul > li > a > i:hover{
+    transform: translateY(-10px);
 }

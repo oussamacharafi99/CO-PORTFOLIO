@@ -7,6 +7,7 @@ import { HeaderHomeComponent } from './HOME/header-home/header-home.component';
 import { HeroHomeComponent } from './HOME/hero-home/hero-home.component';
 import { FooterHomeComponent } from './HOME/footer-home/footer-home.component';
 import { ModeHomeComponent } from './HOME/mode-home/mode-home.component';
+import { SlideHomeComponent } from './HOME/slide-home/slide-home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ModeHomeComponent } from './HOME/mode-home/mode-home.component';
     HeaderHomeComponent,
     HeroHomeComponent,
     FooterHomeComponent,
-    ModeHomeComponent
+    ModeHomeComponent,
+    SlideHomeComponent
   ],
   imports: [
     BrowserModule,
